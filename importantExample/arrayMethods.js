@@ -28,6 +28,10 @@ hiCallback(function () {
 // forEach
 const someArray = ['a', 2, 'd', 4, 3, 6]
 
+for(let i = 0; i < someArray.length; i++) {
+    console.log(`item ${someArray[i]} --- index ${i}`)
+}
+
 someArray.forEach(function (item, index) {
     console.log(`item ${item} --- index ${index}`)
 })
